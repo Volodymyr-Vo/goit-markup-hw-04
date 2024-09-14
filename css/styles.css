@@ -233,14 +233,6 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.feature-list-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-}
 
 .class-list-feature {
   position: absolute;
@@ -356,6 +348,43 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.our-team-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.our-team-icon-link {
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-team-icon-item {
+  height: 40px;
+  width: 40px;
+}
+
+.our-team-icon-link:hover,
+.our-team-icon-link:focus {
+  background-color: #404bbf;
+}
+
+.our-team-icon {
+  fill: #f4f4fd;
 }
 
 /*=================potfolio======================*/
